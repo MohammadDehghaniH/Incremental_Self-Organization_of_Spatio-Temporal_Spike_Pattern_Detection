@@ -2,6 +2,6 @@
 
 This repository contains the codes to implement the model described in the manuscript "Incremental Self-Organization of Spatio-Temporal Spike Pattern Detection".
 
-#single post synaptic neuron
+**Single post-synaptic neuron
 
-#More than one post synaptic neuron (Incremental Learning)
+#More than one post-synaptic neuron (Incremental Learning)
