@@ -1,23 +1,17 @@
-# Incremental_Self-Organization_of_Spatio-Temporal_Spike_Pattern_Detection
+This folder contains Python scripts corresponding to the simulations presented in the current version of the paper. Each file includes code used for specific experiments in the manuscript.
 
-This repository contains the codes to implement the model described in the manuscript "Incremental Self-Organization of Spatio-Temporal Spike Pattern Detection".
+Contents:
+**IncrementalLearning.py**
+Implements the incremental learning procedure.
 
-**Single post-synaptic neuron**
+**SpeechdataIncremental.py**
+Processes speech data for incremental learning simulations.
 
-This repository contains the MATLAB implementation for the **single postsynaptic neuron** simulations described in the paper.
+**SpeechdataV4SingleSpeaker.py**
+Variant of the speech data processing script focused on single-speaker scenarios.
 
-Core files:
-Model_One_With_PreHSP.m: This script serves as the main driver for the simulation. It contains the core logic needed to run the model.
-
-Subfunctions:
-Model_Input.m and Model_Input_test.m: These subfunctions are responsible for calculating the primary input to the model for learning and testing.
-
-**More than one post-synaptic neuron (Incremental Learning)**
-
-This repository contains the MATLAB implementation for the **more then one postsynaptic neuron** simulations described in the paper.
-
-Core files: Model_NET_Incremental.m: This script serves as the main driver for the simulation. It contains the core logic needed to run the model.
-
-Subfunctions: Model_Input_NET_WITHOUT_EM.m, Model_Input_NET_WITH_EM_ORIGINAL.m, and Model_Input_NET_WITH_EM: These subfunctions are responsible for calculating the primary input to the model for learning and testing.
+**Figure4.py**
+This script reproduces the results shown in Figure 4 of the paper. It includes data loading, model configuration, and visualization routines.
 
 
+For the case of the single neuron model, please refer to the **Simulations II** folder.
