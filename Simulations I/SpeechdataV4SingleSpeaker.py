@@ -1,3 +1,4 @@
+# Written by: Lenny Müller (muellele@uni-bremen.de)
 from random import shuffle
 import os
 import numpy as np
