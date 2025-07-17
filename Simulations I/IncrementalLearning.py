@@ -1,3 +1,4 @@
+# Written by: Lenny Müller (muellele@uni-bremen.de)
 import torch
 import time
 import os
